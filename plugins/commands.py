@@ -402,7 +402,7 @@ async def start(client, message):
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ],[
-                    InlineKeyboardButton(🔹ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ ᴀᴅᴢ ғʀᴇᴇ ᴍᴏᴠɪᴇ🎥', callback_data='buy_premium')
+                    InlineKeyboardButton('🔹ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ ᴀᴅᴢ ғʀᴇᴇ ᴍᴏᴠɪᴇ🎥', callback_data='buy_premium')
                     ]]
                 await message.reply_text(
                     text="<b>⚠⚠ ‼️ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ‼️ ⚠⚠\n\nᴛᴏ ᴜɴʟᴏᴄᴋ 🔓 ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛᴏ ғɪʟᴇ ғᴏʀ 𝟷𝟸 ʜᴏᴜʀs✔️/n♨️ ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ♨️</b>",
@@ -466,7 +466,7 @@ async def start(client, message):
         btn = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ],[
-            InlineKeyboardButton(🔹ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ ᴀᴅᴢ ғʀᴇᴇ ᴍᴏᴠɪᴇ🎥', callback_data='buy_premium')
+            InlineKeyboardButton('🔹ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ ᴀᴅᴢ ғʀᴇᴇ ᴍᴏᴠɪᴇ🎥', callback_data='buy_premium')
         ]]
         await message.reply_text(
             text="<b>⚠⚠ ‼️ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ‼️ ⚠⚠\n\nᴛᴏ ᴜɴʟᴏᴄᴋ 🔓 ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛᴏ ғɪʟᴇ ғᴏʀ 𝟷𝟸 ʜᴏᴜʀs ✔️\n♨️ ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ♨️</b>",
