@@ -1879,6 +1879,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "buy_premium":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
+                                         ],[
                     InlineKeyboardButton("Sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ", "url=telegram.me/Raadhe_Krishnn") 
                   ]]
             await client.edit_message_media(
