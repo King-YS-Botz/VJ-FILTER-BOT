@@ -30,7 +30,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/ebad2eb29a3d2702e1531.jpg h
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
-UPI_QR = (enviro.get('UPI_QR','https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg')).split() 
+UPI_QR = (environ.get('UPI_QR','https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg')).split() 
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6064893774').split()]
